@@ -1,0 +1,75 @@
+.timer-container, .settings-container {
+    background-color: white;
+    height: 26vh;
+    width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 90px 50px;
+    border-radius: 10px;
+}
+
+.break-container {
+    background-color: #333233;
+}
+
+.time-counter {
+    letter-spacing: 4px;
+    font-size: 6rem;
+    font-weight: bold;
+    color: rgba(238, 66, 43, 0.77);
+    align-self: center;
+}
+
+.timer-settings-btn, .timer-control-btn {
+    font-size: 4rem;
+    border: transparent;
+    background-color: transparent;
+    color: rgba(238, 66, 43, 0.77);
+    cursor: pointer;
+    font-weight: bold;
+    margin: 14px;
+}
+
+.timer-buttons-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.start-work-btn {
+    margin-top: 20px;
+    padding: 18px;
+    border: none;
+    border-radius: 36px;
+    background-color: rgba(238, 66, 43, 0.86);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1.6px;
+}
+
+.start-work-btn:hover {
+    background-color: rgba(238, 66, 43, 1);
+    transition: all 1s ease-in-out;
+}
+
+.slider {
+    height: 40px;
+    border: 2px solid #EE422B;
+    border-radius: 20px;
+}
+
+.thumb {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(238, 66, 43, 0.7);
+}
+
+.thumb:focus {
+    outline: none;
+}

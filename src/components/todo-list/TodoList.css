@@ -1,0 +1,79 @@
+.todo-form {
+    width: 650px;
+    padding: 20px 50px;
+    margin: 10px auto 0;
+    text-align: left;
+    font-size: 2rem;
+    border-bottom: 4px solid #EE422B;
+    color: rgba(238, 66, 43, 0.8);
+    font-weight: bold;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-todo-input {
+    width: 90%;
+    padding: 10px 10px 10px 4px;
+    margin: 10px 0;
+    font-size: 2rem;
+    border: none;
+}
+
+.add-todo-input:focus {
+    outline: none;
+}
+
+.todo-container {
+    border-radius: 10px;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.todo-item-container {
+    width: 650px;
+    min-height: 100%;
+    margin: 5px auto;
+    padding: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-item {
+    display: flex;
+}
+
+.todo-column1 {
+    display: flex;
+}
+
+.todo-text {
+    font-size: 1.3rem;
+    width: 540px;
+    padding: 4px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trash-button, .plus-button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.plus-button {
+    font-size: 3.8rem;
+    color: rgba(238, 66, 43, 0.8);
+    padding: 10px;
+}
+
+.trash-button, .plus-button {
+    margin-right: -27px;
+}
